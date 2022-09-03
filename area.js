@@ -10,7 +10,7 @@ function multiplybaseheight(base,height){
 function areaCalculation(){
     var mul=multiplybaseheight(Number(input[0].value),Number(input[1].value));
     var area=mul/2;
-    outputDiv.innerText="Area of Triangle is " +area;
+    outputDiv.innerText="Area of Triangle is " +area +" cm²";
 }
 
 areaCalculationBtn.addEventListener('click',areaCalculation);
