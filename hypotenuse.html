@@ -9,27 +9,26 @@
     <title>Hypotenuse</title>
 </head>
 <body>
-    <nav>
-        <div>fun with triangles</div>
-        <a href="index.html">Is Triangle?</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenuse.html">Hyponenuse</a>
-        <a href="area.html">Area of Triangle</a>
+    <nav class="navigation">
+        <p class="nav-header">fun with triangles</p>
+        <a class="nav-link" href="index.html">Is Triangle?</a>
+        <a class="nav-link" href="quiz.html">Quiz</a>
+        <a class="nav-link link-active" href="hypotenuse.html">Hyponenuse</a>
+        <a class="nav-link" href="area.html">Area of Triangle</a>
     </nav>
-    <h1>Calculate Hypotenuse</h1>
-    <label for="value1">a=</label>
+    
+    <div class="container">
+        <h1>Calculate Hypotenuse</h1>
+        <div class="description">Length of Hypotenuse = sqrt(a² + b²)
+        <label for="value1">a=</label>
     <input type="number" class="side-input" />
     <label for="value2">b=</label>
     <input type="number" class="side-input"/>
     <button id="calculate-hypotenuse-btn">Calculate Hypotenuse</button>
     <div id="output-div"></div>
-    <footer class="footer">
-        <div class="footer-div">
-              <a href="https://github.com/sushmita2109" target="_blank"><i class="fa fa-github"></i></a>
-              <a href="https://twitter.com/Sushmit10759660" target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.linkedin.com/in/sushmita-kumari-4393b2ab/" target="_blank"><i class="fa fa-linkedin"></i></a>
-        </div>
-     </footer>
+   
+    </div>
+    
     <script src="hypotenuse.js"></script>
 </body>
 </html>
