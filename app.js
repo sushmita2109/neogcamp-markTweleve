@@ -3,7 +3,6 @@ var checkBtn=document.querySelector('#check-btn');
 var outputDiv=document.querySelector('#output-div');
 
 function computeSumOfAngles(angle1,angle2,angle3){
-    // console.log(typeof angle1);
     var sum=angle1+angle2+angle3;
     return sum;
 }
