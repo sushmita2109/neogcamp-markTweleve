@@ -21,7 +21,7 @@ function calculateHypotenus(){
     }
     else
    {
-    outputDiv.innerText="Enter non-negative value for computation";
+    outputDiv.innerText="Enter valid value for computation";
    }
     
 }
